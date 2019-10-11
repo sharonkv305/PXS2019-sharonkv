@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#59abe3</color>
+    <color name="colorPrimaryDark">#6DB6E9</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGrey">#f3f1ef</color>
+    <color name="hoursLoggedHeaderColor">#6c7a89</color>
+    <color name="viewAttButtonColor">#67809f</color>
+</resources>

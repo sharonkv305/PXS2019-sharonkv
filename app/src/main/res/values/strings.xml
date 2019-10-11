@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Employee Attendance</string>
+    <string name="promt_spinner">Select Employee</string>
+    <string name="date_of_the_month">Date of the month</string>
+    <string name="no_of_hours_logged">No.of Hours Logged</string>
+    <string name="emp_iden">’s Attendance Report for </string>
+    <string name="no_reports">No Reports</string>
+    <string name="hours_logged">Hours Logged</string>
+    <string name="days_present">Days Present</string>
+    <string name="days_absent">Days Absent</string>
+    <string name="view_attendance_report">View Attendance REport</string>
+    <string-array name="item_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
