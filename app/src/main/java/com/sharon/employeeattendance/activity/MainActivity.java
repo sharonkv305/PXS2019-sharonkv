@@ -123,6 +123,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 }
 
                 getEmploye();
+                //spinner.setPrompt("PROMPT");
             }
 
             @Override
@@ -171,14 +172,19 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
 
         if (adapterView.getId() == R.id.spinner) {
-            Employees employees = employlist.get(i);
-            String id = employees.getEmp_id();
-            empName = employees.getName();
-            empID = id;
-            if (empName.equals("Select Employee")) {
-                Snackbar.make(layout, "Select Employee Name", Snackbar.LENGTH_SHORT).show();
+
+            if (i == 0) {
+                //Snackbar.make(layout, "Select Employee Name", Snackbar.LENGTH_SHORT).show();
+                Log.d(TAG, "Position=: " + i);
+            } else {
+                Employees employees = employlist.get(i-1);
+                String id = employees.getEmp_id();
+                empName = employees.getName();
+                empID = id;
+                Log.d(TAG, "Emp id=: " + id);
             }
-            Log.d(TAG, "Emp id=: " + id);
+
+
         }
         if (adapterView.getId() == R.id.spinnerMonth) {
             monthName = spinMonth.getSelectedItem().toString();

@@ -23,8 +23,7 @@
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:prompt="@string/promt_spinner"
-                android:spinnerMode="dropdown" />
+                android:spinnerMode="dropdown"/>
         </RelativeLayout>
 
 
